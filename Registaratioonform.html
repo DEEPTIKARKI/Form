@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>REQUIRED USER INFORMATION </legend>
+            <label for="name">Enter your name:</label>
+            <input type="text" name="name" id="name" value="YOUR NAME" readonly disabled>
+            <!-- 'readonly disabled attribute to disable doing anything on that lable ' -->
+            <!-- placeholder attribute for hint texttt -->
+            <br>
+            <label for="email">Enter your EMail:</label>
+            <input type="email" name="email" id="email" placeholder="a@exam.com" autofocus>
+            <!-- autofocus to focus the main input -->
+            <br>
+            <label for="phone no.">Phone No. :</label>
+            <input type="number" name="" id="phone no.">
+            <br>
+            <label for="password">Enter your password:</label>
+            <input type="password" name="" id="password">
+            <br> SELECT YOUR GENDER: <br>
+            <label for="male">MALE</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <!-- here value attribute is importanant in gender label , if we'll not put this then we'll be enable to get information -->
+            <label for="female">FEMALE</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br>
+            <input type="number" min="0" max="9">
+            <!-- here we have used "value" attribute to set the submit button  name manually -->
+            <input type="submit" value="Click to submit">
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

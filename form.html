@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL ABOUT FORM</title>
+</head>
+
+<body>
+    <!-- form in a web page -->
+    <form action="">
+        <!-- "fieldset" is to seperate the form from the web page -->
+        <fieldset>
+            <!-- LEGEND TAG IS USED TO SET THE HEADING OF FORM -->
+            <legend>REGISTRATION FORM</legend>
+            <label for="NAME">ENTER NAME</label>
+            <!-- we often use this label tag to highlight it';s belongging to that particular information -->
+            <input type="text" id="NAME" name="user name">
+            <br> <label for="THOUGHTS"> PLEASE ENTER YOUR THOUGHTS</label> <textarea name="thoughts" id="THOUGHTS" cols="30" rows="10"></textarea>
+            <br>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="date of birth">
+            <br>
+            <label for="password">ENTER YOUR PASSWORD</label>
+            <input type="password" name="" id="password">
+            <!-- In the following case we just have to choose one radio button and for that we are giving the same name gender in the "name" attribute -->
+            <br> SELECT YOUR GENDER: <br>
+            <label for="male">MALE</label>
+            <input type="radio" name="gender" id="male">
+            <br>
+            <label for="female">FEMALE</label>
+            <input type="radio" name="gender" id="female">
+            <br>SELECT YOUR FAVROUITE MOVIES: <br>
+            <label for="Avengers">Avengers</label>
+            <input type="checkbox" name="avengers" id="Avengers">
+            <br>
+            <label for="thor">Thor</label>
+            <input type="checkbox" name="Thor" id="thor">
+            <br>
+            <label for="IronMan">IronMan</label>
+            <input type="checkbox" name="IronMan" id="IronMan">
+            <br>
+            <input type="submit" name="" id="">
+        </fieldset>
+    </form>
+</body>
+
+</html>
